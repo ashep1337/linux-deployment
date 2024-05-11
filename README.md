@@ -14,7 +14,7 @@ This tutorial outlines how to deploy Linux Mint or any other linux environment t
 <h2>Installation Steps</h2>
 
 <p>
-<img src="[https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps](https://github.com/ashep1337/linux-deployment/blob/main/linux_download.png)"/>
+<img src="(https://github.com/ashep1337/linux-deployment/blob/main/linux_download.png)"/>
 </p>
 First we begin at https://linuxmint.com/.<br />
   -Click "Download"<br />
