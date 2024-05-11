@@ -39,9 +39,11 @@ Download your ISO file and save into "ISO verify" folder.<br />
 Navigate to https://www.gnupg.org/download/index.html and scroll down to GnuPG binary releases<br />
   -Select "Download" for windows<br />
   -Install GnuPG<br />
+  <img src="GnuPG_verify.png"/>
 Right Click "ISO verify" folder and select "Open in Terminal"<br />
 Run this command in your terminal making sure to replace the filename with the name of your .iso file you chose. <br /> <br /> -- CertUtil -hashfile linuxmint-21.3-xfce-64bit.iso SHA256<br /><br />
 This will take a minute to load but you will receive an output of something similar to this b284afcc298cc6f5da6ab4d483318c453b2074485974b71b16fdfc7256527cb1<br />
+  <img src="Sha256_output.png"/>
 Go into your "ISO verify" folder and open "sha256sum.txt and ensure that your "hash" (string of letters and numbers) matches one of the hashes listed in this folder.<br />
 This verifies that the .iso file we downloaded is authentic and not a virus of some sort.<br />
 
@@ -49,7 +51,7 @@ This verifies that the .iso file we downloaded is authentic and not a virus of s
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 Next we will download rufus.exe from https://rufus.ie/en/<br />
 Install rufus and run rufus.exe<br />
@@ -59,12 +61,11 @@ Click "Select" under the Boot selection tab and select your .iso file<br />
 All default settings should remain the same.<br />
 Click start at the bottom<br />
 You now have a bootable drive that has linux mint on it!<br />
-
+<img src="rufus.png"/>
 
 <p>
 </p>
 <br /><p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 Now we will boot into the BIOS to change our boot configuration.<br />
 Your computer may have you press "Del" or one of the "F" keys while booting up in order to enter BIOS mode<br />
