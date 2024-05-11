@@ -25,15 +25,17 @@ First we begin at https://linuxmint.com/.<br />
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="ISOverify_folder.png"/>
 </p>
 <p>
 We will create a new folder for the next items to be saved in<br />
 I named mine "ISO verify"<br />
   -Make sure all files are saved into the same folder<br />
-Right click the two files sha256sum.txt and sha256sum.txt.gpg and "save link as" into your "ISo Verify" folder.<br />
+Right click the two files sha256sum.txt and sha256sum.txt.gpg and "save link as" into your "ISO Verify" folder.<br />
+  <img src="save_link_as.png"/>
 Next we will go down to our download mirrors and pick a location closest to you. <br />
 Download your ISO file and save into "ISO verify" folder.<br />
+  <img src="mirrors.png"/>
 Navigate to https://www.gnupg.org/download/index.html and scroll down to GnuPG binary releases<br />
   -Select "Download" for windows<br />
   -Install GnuPG<br />
