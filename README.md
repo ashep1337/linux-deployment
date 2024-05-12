@@ -10,7 +10,10 @@ This tutorial outlines how to deploy Linux Mint or any other linux environment t
 - Rufus
 - Sha256 verification
 - BIOS configuration
+- Linux
+- Windows 11
 
+  
 <h2>Installation Steps</h2>
 
 <p>
